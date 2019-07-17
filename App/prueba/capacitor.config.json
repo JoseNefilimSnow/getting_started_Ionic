@@ -1,0 +1,7 @@
+{
+  "appId": "leo.app.banana",
+  "appName": "banana app",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}
