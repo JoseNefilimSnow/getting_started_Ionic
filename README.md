@@ -13,7 +13,7 @@
 ## Creación del esqueleto de la aplicación
 <br>
 Como primer paso instalaremos ionic usando "npm install -g ionic@3" y posteriormente iniciaremos con "ionic start --no-git"(para no crear un directorio de Github en el propio proyecto). 
-Una vez hecho esto selecionaremos el nombre del proyecto y el tipo de proyecto que queremos, para este tutorial el nombre será "prueba" y el tipo "blank".
+Una vez hecho esto selecionaremos el nombre del proyecto y el tipo de proyecto que queremos, para este tutorial el nombre será "prueba" y el tipo "blank". (La integración con cordova sera necesaria y no usaremos ionic pro)
 
 <br>
 
@@ -54,5 +54,5 @@ En este git se encuentra el ejemplo usado en las imagenes completo + un servidor
 Para iniciar el servidor solo sera necesario navegar a la carpeta usando el simbolo de sistema y usando el comando "npm i" para instalar los modulos presentes en el mismo. 
 Una vez terminado ejecutamos el comando "node .".
 
-## En la siguiente actualización hablaremos del typescript, la personalización del proyecto y por último la construcción en distintas plataformas usando cordova y capacitor.
+## En la siguiente actualización hablaremos del typescript, la personalización del proyecto y por último la construcción en distintas plataformas usando cordova y capacitor.(23/07/2019)
 
