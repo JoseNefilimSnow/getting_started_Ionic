@@ -5,7 +5,7 @@
 ## Prerrequisitos:
 
     - NodeJs (version 6 o superior) 
-    https://nodejs.org/dist/v10.16.0/node-v10.16.0-x64.msi
+    https://nodejs.org/dist/v8.11.3/node-v8.11.3-x64.msi
     - Editor de Texto (Visual Studio Code, Atom, Sublime, etc.)
 
 
@@ -13,7 +13,7 @@
 ## Creación del esqueleto de la aplicación
 <br>
 Como primer paso instalaremos ionic usando "npm install -g ionic@3" y posteriormente iniciaremos con "ionic start --no-git"(para no crear un directorio de Github en el propio proyecto). 
-Una vez hecho esto selecionaremos el nombre del proyecto y el tipo de proyecto que queremos, para este tutorial el nombre será "prueba" y el tipo "blank". (La integración con cordova sera necesaria y no usaremos ionic pro)
+Una vez hecho esto selecionaremos el nombre del proyecto y el tipo de proyecto que queremos, para este tutorial el nombre será "prueba" y el tipo "blank".
 
 <br>
 
@@ -54,12 +54,5 @@ En este git se encuentra el ejemplo usado en las imagenes completo + un servidor
 Para iniciar el servidor solo sera necesario navegar a la carpeta usando el simbolo de sistema y usando el comando "npm i" para instalar los modulos presentes en el mismo. 
 Una vez terminado ejecutamos el comando "node .".
 
-# CRUD y Acceso a datos.
+## En la siguiente actualización hablaremos del typescript, la personalización del proyecto y por último la construcción en distintas plataformas usando cordova y capacitor.
 
-## CRUD de ficheros locales.
-
-Desde el servidor creamos una series de rutas que cumplimenten las operaciones de Creacion, Lectura, Edicion y Borrado de ficheros usando 'fs'. Para esto creamos que para cada operacion que reciba el servidor (.get(),.post(),.delete()) se trate con los parametros dentro de la ruta (req.params, en este caso seria :nombre) y en caso de tenerlo, el body del mismo por ejemplo para crear o editar los ficheros y posteriormente enviar una respuesta, res, a la aplicación.
-
-Los archivos tendran el nombre del parametro anteriormente nombrado.
-
-## Acceso a los ficheros desde la aplicación, CRUD de Base de datos, exportación de aplicación en otras plataformas, inicio de proyecto invifidual (02/08/2019-09/08/2019)

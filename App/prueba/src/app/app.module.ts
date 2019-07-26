@@ -9,12 +9,14 @@ import { HomePage } from '../pages/home/home';
 import { BananaPage } from '../pages/banana/banana';
 import { ApilinkProvider } from '../providers/apilink/apilink';
 import { HttpClientModule } from '@angular/common/http';
+import { ProdlistPage } from '../pages/prodlist/prodlist';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    BananaPage
+    BananaPage,
+    ProdlistPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,8 @@ import { HttpClientModule } from '@angular/common/http';
   entryComponents: [
     MyApp,
     HomePage,
-    BananaPage
+    BananaPage,
+    ProdlistPage
   ],
   providers: [
     StatusBar,

@@ -15,7 +15,7 @@ import { ApilinkProvider } from '../../providers/apilink/apilink';
   templateUrl: 'banana.html',
 })
 export class BananaPage {
-  private labelStatus;
+  private labelStatus="Esto es una etiqueta";
   constructor(public navCtrl: NavController, public navParams: NavParams, public apilink:ApilinkProvider) {
   }
 
@@ -23,8 +23,8 @@ export class BananaPage {
     let status;
     this.apilink.getStatus().then((res:any)=>{
       console.log(res);
-      status=JSON.parse(res.body);
-      this.labelStatus=status;
+      status=JSON.parse(res);
+      this.labelStatus=status.body;
     }).catch(error=>{
       console.log(error);
       this.labelStatus = "Error";
