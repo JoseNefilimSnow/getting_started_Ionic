@@ -12,7 +12,7 @@
 
 ## Creación del esqueleto de la aplicación
 <br>
-Como primer paso instalaremos ionic usando "npm install -g ionic@3" y posteriormente iniciaremos con "ionic start --no-git"(para no crear un directorio de Github en el propio proyecto). 
+Como primer paso instalaremos ionic usando "npm install -g ionic@latest" (esta guia se basa sobre ionic 3) y posteriormente iniciaremos con "ionic start --no-git"(para no crear un directorio de Github en el propio proyecto). 
 Una vez hecho esto selecionaremos el nombre del proyecto y el tipo de proyecto que queremos, para este tutorial el nombre será "prueba" y el tipo "blank". (La integración con cordova sera necesaria y no usaremos ionic pro)
 
 <br>
